@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900|Pacifico&display=swap');
+
+$myColor: rgb(3, 243, 63);
+$font-stack:  'Muli', sans-serif;
+$font-script:  'Pacifico', cursive;
+$primary-color: rgb(51, 20, 224);
+* { 
+   
+//     padding: 0; 
+//     border: 0; 
+}
+body {
+  margin: auto 5%; 
+  font-family: $font-stack;
+}
+h1 {
+ 
+  font-size: 2.6em;
+  padding:2%;
+}
+h2{
+  font-family: $font-script;
+  font-size: 2.3em
+}
+p{
+  font-size: 1.14em;
+  line-height: 70px;
+  font-weight: 600;
+}
+span{
+  font-family: $font-script;
+  font-size: 1.6em;
+}
+.slider{
+  padding-left: 40px;
+}
+.slider-image {
+
+  width:  250px;
+  height: 200px;
+  background-size: cover;
+}
+.slider-2{
+  padding-left: 40px;
+}
+.slider-image-2 {
+  padding:0% 15%;
+  width:  650px;
+  height: 500px;
+  background-size: cover;
+}
+.hero{
+  filter: contrast(120%) saturate(200%);
+  background: url("/IMG_1790.JPG")50% 60% no-repeat;
+  background-size: cover;
+  height:400px;
+  margin-bottom:30px;
+}
+.hero-text{
+  position:absolute;
+  left: 65%;
+  top: 50%;
+}
+.bagels-intro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5%;
+
+.intro-pic{
+  max-width:40%;
+  padding: 0% 5%;
+ 
+}
+}
+.logo{
+  max-width: 4%;
+
+}

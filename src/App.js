@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import SimpleSlider from './Components/slider';
+import FadeSlider from './Components/fade-slider'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div>
+     <h2>The Puppy Club  <img className="logo" src="Brooklyn-Bagels-white.png"alt="bagels-logo" /></h2>
+     <div className="hero">
+     {/* <h1 className="hero-text">Brooklyn Bagels</h1> */}
+       
+     </div>
+    <SimpleSlider/>
+    <div className="bagels-intro">
+      <p><span>Brooklyn Bagels</span> is a black lab mix born on January 7th 2020. 
+        She loves chewing on sticks and bones in her free time, but if she had a choice, carrots and peanut butter are her go to snacks!
+        Bagels is one of the sweetest dogs you will ever meet and just wants to play and make new friends.
+
+
+      </p>
+      <img className="intro-pic" src="Brooklyn-Bagels-white.png" alt="bagels" />
     </div>
+    <FadeSlider />
+   </div>
   );
 }
 
